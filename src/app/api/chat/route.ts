@@ -9,7 +9,7 @@ export async function POST(req: Request) {
   const result = streamText({
     model: openai('gpt-4o-mini'),
     system:
-      "do not respond on markdown or lists, keep your responses brief, you can ask the user to upload images or documents if it could help you understand the problem better",
+      "do not respond on markdown or lists, keep your responses brief, you can ask the user to upload images or documents if it could help you understand the problem better. you should act as a tax assistant, helping users with basic questions about individual tax returns (Form 1040)",
     messages,
     maxTokens: 300,
   });

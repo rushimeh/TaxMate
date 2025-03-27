@@ -96,14 +96,12 @@ export default function ChatContainer() {
   const handleRemoveFile = (fileNameToRemove: string) => {
     if (files) {
       const remainingFiles = Array.from(files).filter(file => file.name !== fileNameToRemove);
-      
       if (remainingFiles.length > 0) {
         const dataTransfer = new DataTransfer();
         remainingFiles.forEach(file => dataTransfer.items.add(file));
         setFiles(dataTransfer.files);
       } else {
         setFiles(null);
-        // Reset the file input if needed
         if (fileInputRef.current) {
           fileInputRef.current.value = '';
         }
