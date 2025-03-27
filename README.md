@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
-First you need to create a .env.local file that holds your API key in my case it was 
+First you need to create a .env.local file that holds your API key. In my case it was 
 
 OPENAI_API_KEY:"api-key here"
 
