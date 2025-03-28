@@ -29,6 +29,18 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 I made this project assuming that it was meant to converse with a tax-expert ChatBot that could answer questions on taxes and related topics. I also assumed that any AI API could be used, so I decided to use OpenAI.
 
-Areas of improvement: I could've added the "stretches" mentioned in the project description, and if I had more time, I would've been able to apply multimedia outputs using the generateObject commands in the Vercel AI SDK and the utilization of charting libraries. It would also require formatting the data from the documents into a table using queries (SQL) and then using the charting libraries.
+Other than that, some minor features need to be added, such as allowing the attachment of multiple files at different times (instead of attaching five at once) and the ability to send documents by themselves. I would've implemented this by having a template text for blank file submissions, such as "read this." This would make it easier to read and implement documents with the chatbot without any accompanying text.
 
-Other than that, there were some minor features I could've added, such as allowing the attachment of multiple files at different times (instead of attaching five at once) and the ability to send documents by themselves. I would've implemented this by having a template text for blank file submissions, such as "read this." This would make it easier to read and implement documents with the chatbot without any accompanying text.
+
+## Demo
+
+Heres a link/gif to a demo of the app being used and its functionalities being tested. Keep in mind this is a prototype, so the front end still needs some work.
+
+<div>
+    <a href="https://www.loom.com/share/f2562c9e601e4ef5be05d6d4288d8236">
+      <p>Create Next App - 26 March 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/f2562c9e601e4ef5be05d6d4288d8236">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f2562c9e601e4ef5be05d6d4288d8236-6ebf6df3d1e3afc8-full-play.gif">
+    </a>
+  </div>
