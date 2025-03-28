@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Note
+
+The goal of this project was to explore the integration of artificial intelligence into the front end by building a chatbot. Additionally, I experimented with advanced functionalities such as file uploads and AI-generated reply suggestions, which required thoughtful implementation and deeper integration. The front-end styling and certain UX elements remain in a prototype stage, as the primary focus was on AI integration and functionality.
+
 ## Getting Started
 First you need to create a .env.local file that holds your API key. In my case it was 
 
@@ -25,11 +29,28 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-## Learn More
+## What is this project?
 
-I made this project assuming that it was meant to converse with a tax-expert ChatBot that could answer questions on taxes and related topics. I also assumed that any AI API could be used, so I decided to use OpenAI.
+📊 AI Tax Assistant
+AI-powered chatbot prototype that helps users learn and analyze their tax returns. Built with OpenAI's GPT model using Vercel’s AI SDK, with a simple and responsive front-end powered by Next.js and Tailwind CSS.
 
-Other than that, some minor features need to be added, such as allowing the attachment of multiple files at different times (instead of attaching five at once) and the ability to send documents by themselves. I would've implemented this by having a template text for blank file submissions, such as "read this." This would make it easier to read and implement documents with the chatbot without any accompanying text.
+✨ Features
+📄 File Uploads – Users can upload various tax-related documents, allowing the chatbot to analyze and generate responses based on file content.
+
+💬 AI-Powered Conversations – The chatbot provides tax insights and answers user queries related to Form 1040 and individual tax returns.
+
+⚡ Quick-Reply Buttons – AI-generated suggestions guide conversations, making interactions faster and more intuitive.
+
+🚀 Seamless Integration – Hosted on Vercel, ensuring scalability and fast performance.
+
+🛠️ Tech Stack
+Frontend: Next.js, Tailwind CSS
+
+Backend: Vercel AI SDK, OpenAI GPT-4o-mini
+
+Deployment: Vercel
+
+
 
 
 ## Demo
