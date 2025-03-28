@@ -55,7 +55,7 @@ Deployment: Vercel
 
 ## Demo
 
-Heres a link/gif to a demo of the app being used and its functionalities being tested. Keep in mind this is a prototype, so the front end still needs some work.
+Heres a link/gif to a demo of the app being used and its functionalities being tested.
 
 <div>
     <a href="https://www.loom.com/share/f2562c9e601e4ef5be05d6d4288d8236">
